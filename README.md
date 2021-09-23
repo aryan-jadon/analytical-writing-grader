@@ -15,3 +15,11 @@
     
   </p>
 </p>
+
+### Project Screenshots
+[Image1](https://github.com/aryan-jadon/analytical-writing-grader/blob/main/images/image-1.png)
+
+
+[Image2](https://github.com/aryan-jadon/analytical-writing-grader/blob/main/images/image-2.png)
+
+[Image3](https://github.com/aryan-jadon/analytical-writing-grader/blob/main/images/image-3.png)
