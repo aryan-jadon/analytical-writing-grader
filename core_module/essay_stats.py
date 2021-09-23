@@ -3,10 +3,11 @@ import math
 import re
 
 
-def get_wordcount(text):
+def getWordCount(text):
     # split the text into words
-    word_list = re.findall(r'\w+', text)
-    return len(word_list)
+    wordList = re.findall(r'\w+', text)
+
+    return len(wordList)
 
 
 def getSentenceCount(text):
@@ -31,7 +32,7 @@ def getAvgSentenceLength(text):
 
     sumSentLength = 0
     for sent in sentList:
-        sumSentLength = sumSentLength + get_wordcount(sent)
+        sumSentLength = sumSentLength + getWordCount(sent)
 
     return float(sumSentLength) / len(sentList)
 
@@ -45,6 +46,6 @@ def getStdDevSentenceLength(text):
 
     nr = 0.0
     for sent in sentList:
-        nr = nr + (get_wordcount(sent) - mean) ** 2
+        nr = nr + (getWordCount(sent) - mean) ** 2
 
     return math.sqrt(nr / len(sentList))
